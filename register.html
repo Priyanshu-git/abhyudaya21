@@ -152,10 +152,10 @@
             <div class="col-md-6 col-lg-4 col-xs-12 padding-none">
                 <div class="services-item wow fadeInDown" data-wow-delay="1s">
                     <div class="icon">
-                        <i class="lni-user"></i>
+                        <i href="" data-toggle="modal" data-target="#not_started" class="lni-user"></i>
                     </div>
                     <div class="services-content">
-                        <h3><a href="#">Quiz</a></h3>
+                        <h3><a href="" data-toggle="modal" data-target="#not_started">Quiz</a></h3>
                         <p>Objective questions on what you don't know!</p>
                     </div>
                 </div>
@@ -256,6 +256,25 @@
                             Take me there!
                         </button>
                     </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="not_started" tabindex="-1" role="dialog"
+         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle">Event registration</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>This event has not started yet.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
