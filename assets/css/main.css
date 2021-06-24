@@ -1375,7 +1375,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #3B5998;
 }
 
-.team-item .overlay-social-icon .social-icons li a:hover .fa-twitter {
+.team-item .overlay-social-icon .social-icons li a:hover .fa-instagram {
   background: #00aced;
 }
 
@@ -1761,8 +1761,8 @@ a.back-to-top:hover, a.back-to-top:focus {
   display: block;
   text-align: center;
   border-radius: 4px;
-  font-size: 15px;
-  /*margin-right: 5px;*/
+  font-size: 18px;
+  margin-right: 5px;
   transition: all 0.3s ease-in-out 0s;
   -moz-transition: all 0.3s ease-in-out 0s;
   -webkit-transition: all 0.3s ease-in-out 0s;
@@ -1777,16 +1777,16 @@ a.back-to-top:hover, a.back-to-top:focus {
   background: #3B5998;
 }
 
-.footer-area .footer-social li .twitter:hover {
-  background: #f50686;
+.footer-area .footer-social li .instagram:hover {
+  background: #ff2d97;
 }
 
-.footer-area .footer-social li .linkedin:hover {
+.footer-area .footer-social li .youtube:hover {
   background: #fc0000;
 }
 
-.footer-area .footer-social li .foursqare:hover {
-  background: #25a0ca;
+.footer-area .footer-social li .telegram:hover {
+  background: #0db8ec;
 }
 
 .footer-area .footer-social li .google-plus:hover {
