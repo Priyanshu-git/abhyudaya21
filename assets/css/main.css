@@ -2217,3 +2217,72 @@ a.back-to-top:hover, a.back-to-top:focus {
   color: #fff;
   border-color: #fff;
 }
+
+/* sponsors */
+#sponsors .spnsors-logo {
+  text-align: center;
+  height: 290px;
+  border-radius: 4px;
+  padding: 36px;
+  margin-bottom: 30px;
+  display: inline-block;
+  border: 1px solid #ddd;
+  background: #fff;
+  transition: all 300ms ease-in-out;
+}
+
+.sponsor-content h3 {
+  line-height: 0.9;
+}
+
+.spnsors-logo .sponsor-content h3 a {
+  font-size: 19px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  color: #212121;
+  
+}
+
+.img-fluid-sm {
+  max-width: 80%;
+  height: auto;
+}
+
+
+#sponsors .spnsors-logo-title {
+
+  width: 279px;
+  text-align: center;
+    border-radius: 4px;
+    padding: 32px;
+    margin-bottom: 30px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    background: #fff;
+    transition: all 300ms ease-in-out;
+}
+
+.sponsor-content-t h3
+{
+  line-height: 0.9;
+}
+.sponsor-content-t {
+  width: 300px;
+  padding-top: 20px;
+  padding-right: 72px;
+
+}
+
+.sponsor-content-t h3 a {
+  width: 300px;
+  padding-top: 20px;
+  color: #212121;
+
+}
+.sponsor-content-t p{
+  
+  color: #007bff;
+  font-size:20px;
+  font-weight: bolder;
+
+}
