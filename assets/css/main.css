@@ -2219,70 +2219,56 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 /* sponsors */
-#sponsors .spnsors-logo {
-  text-align: center;
-  height: 290px;
+
+.sponsor-content-t {
+  
+  color: #007bff;
+  font-size:21px;
+  font-weight: bolder;
+
+}
+
+.card-img-top {
+  width: 100%;
+  height: 80%;
+  border-top-left-radius: calc(.25rem - 1px);
+  border-top-right-radius: calc(.25rem - 1px);
+}
+
+/* hover */
+.card{
   border-radius: 4px;
-  padding: 36px;
-  margin-bottom: 30px;
-  display: inline-block;
-  border: 1px solid #ddd;
   background: #fff;
-  transition: all 300ms ease-in-out;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+padding: 53px 54px 43px 53px;
+cursor: pointer;
+}
+.card-ace{
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 48px 65px 42px 68px;
+cursor: pointer;
 }
 
-.sponsor-content h3 {
-  line-height: 0.9;
+.card-ace:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
-.spnsors-logo .sponsor-content h3 a {
-  font-size: 19px;
+.card:hover{
+   transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+/* text */
+.sponsor-content h4 {
+  font-size: 21px;
   letter-spacing: 0.5px;
   font-weight: 400;
   color: #212121;
+  padding-top: 11px;
   
-}
-
-.img-fluid-sm {
-  max-width: 80%;
-  height: auto;
-}
-
-
-#sponsors .spnsors-logo-title {
-
-  width: 279px;
-  text-align: center;
-    border-radius: 4px;
-    padding: 32px;
-    margin-bottom: 30px;
-    display: inline-block;
-    border: 1px solid #ddd;
-    background: #fff;
-    transition: all 300ms ease-in-out;
-}
-
-.sponsor-content-t h3
-{
-  line-height: 0.9;
-}
-.sponsor-content-t {
-  width: 300px;
-  padding-top: 20px;
-  padding-right: 72px;
-
-}
-
-.sponsor-content-t h3 a {
-  width: 300px;
-  padding-top: 20px;
-  color: #212121;
-
-}
-.sponsor-content-t p{
-  
-  color: #007bff;
-  font-size:20px;
-  font-weight: bolder;
-
 }
