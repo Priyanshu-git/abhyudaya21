@@ -2272,3 +2272,11 @@ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
   padding-top: 11px;
   
 }
+
+.eventh3
+{
+  font-size: 20px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #212121;
+}
