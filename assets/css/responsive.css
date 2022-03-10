@@ -155,6 +155,36 @@
 
 /* mobile or only mobile */
 @media (max-width: 767px) {
+
+  .box
+{
+  width: 150px;
+  height : 50px;
+  margin: auto;
+  outline-width: thick;
+  outline-style: solid;
+  outline-color :white;
+  margin-bottom: 2rem;
+}
+
+.box2
+{
+  width: 150px;
+    height: 50px;
+    margin: auto;
+    position: relative;
+    top: 11px;
+    left: 11px;
+    outline-style: solid;
+    outline-width: thick;
+    outline-color: #6d8eb3;
+    /* margin-bottom: 7rem; */
+}
+#demo
+{
+  font-size: 12px;
+  padding-top: 10px;
+}
   .section-title {
     font-size: 22px;
   }
