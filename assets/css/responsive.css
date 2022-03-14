@@ -1,17 +1,15 @@
-/* only small desktops */
+
 @media (min-width: 992px) and (max-width: 1199px) {
-  #main-slide .carousel-caption {
-    top: 32%;
-  }
+
   .carousel-indicators {
     font-size: 14px;
   }
-  #main-slide .carousel-item .carousel-caption .heading {
-    font-size: 20px;
-    margin-top: 5px;
+  #main-slide  .carousel-outer .carousel-caption .heading {
+    font-size: 3rem;
+    /* margin-top: 5px; */
   }
-  #main-slide .carousel-item .carousel-caption p {
-    font-size: 13px;
+  #main-slide  .carousel-outer .carousel-caption p {
+    font-size: 1.5rem;
   }
   #hero-area .contents .head-title {
     font-size: 40px;
@@ -35,14 +33,15 @@
 
 /* tablets */
 @media (max-width: 991px) {
-  #main-slide .carousel-caption {
+  
+  #main-slide .carousel-outer .carousel-caption {
     top: 32%;
   }
-  #main-slide .carousel-item .carousel-caption .heading {
-    font-size: 20px;
+  #main-slide  .carousel-outer .carousel-caption .heading {
+    font-size: 3rem;
   }
-  #main-slide .carousel-item .carousel-caption p {
-    font-size: 13px;
+  #main-slide  .carousel-outer .carousel-caption p {
+    font-size: 1rem;
   }
   .page-title-section {
     padding: 40px 0;
@@ -97,17 +96,45 @@
 
 /* only small tablets */
 @media (min-width: 768px) and (max-width: 991px) {
-  #main-slide .carousel-caption {
-    top: 32%;
+  /* .timer{
+    position: absolute;
+    top:75%;
+    left:27%;
+
   }
-  #main-slide .carousel-item .carousel-caption .heading {
-    font-size: 20px;
+  .box
+{
+  width: 350px;
+  height : 65px;
+  outline-width:medium;
+  margin-bottom: 1.1rem;
+}
+.box2
+{
+  width: 350px;
+    height: 65px;
+    position: relative;
+    top: 12px;
+    left: 12px;
+    outline-width:medium;
+}
+#demo
+{
+  font-size: 30px;
+  text-align: center;
+} */
+
+  #main-slide .carousel-outer .carousel-caption {
+    top: 50%;
   }
-  #main-slide .carousel-item .carousel-caption p {
-    font-size: 13px;
+  #main-slide  .carousel-outer .carousel-caption .heading {
+    font-size: 2.5rem;
+  }
+  #main-slide  .carousel-outer .carousel-caption p {
+    font-size: 1rem;
   }
   .countdown-timer .heading-count h2 {
-    font-size: 25px;
+    font-size: 30px;
   }
   .schedule .schedule-tab-title .nav-tabs .nav-link {
     width: 150px;
@@ -155,51 +182,51 @@
 
 /* mobile or only mobile */
 @media (max-width: 767px) {
+  /* .timer{
+    position: absolute;
+    top:75%;
+    left:25%;
 
+  } */
   .box
 {
-  width: 150px;
-  height : 50px;
-  margin: auto;
-  outline-width: thick;
-  outline-style: solid;
-  outline-color :white;
-  margin-bottom: 2rem;
+  width: 300px;
+  height : 55px;
+  outline-width:medium;
+  margin-bottom: 1.1rem;
 }
-
 .box2
 {
-  width: 150px;
-    height: 50px;
-    margin: auto;
+  width: 300px;
+    height: 55px;
     position: relative;
-    top: 11px;
-    left: 11px;
-    outline-style: solid;
-    outline-width: thick;
-    outline-color: #6d8eb3;
-    /* margin-bottom: 7rem; */
+    top: 12px;
+    left: 12px;
+    outline-width:medium;
 }
 #demo
 {
-  font-size: 12px;
-  padding-top: 10px;
+  font-size: 20px;
+  text-align: center;
 }
+
   .section-title {
     font-size: 22px;
   }
   .section-sub {
     font-size: 16px;
   }
-  #main-slide .carousel-caption {
-    top: 22%;
+  #main-slide .carousel-outer .carousel-caption {
+    flex-direction: column;
+    top: 50%;
   }
-  #main-slide .carousel-item .carousel-caption .heading {
-    font-size: 14px;
-    margin-top: 5px;
+  #main-slide .carousel-outer .carousel-caption .heading {
+    font-size: 2rem;
+    margin: 0;
   }
-  #main-slide .carousel-item .carousel-caption p {
-    font-size: 13px;
+  #main-slide .carousel-outer .carousel-caption p {
+    font-size: 0.75rem;
+    margin:0;
   }
   #main-slide .carousel-indicators {
     display: none;
@@ -281,16 +308,58 @@
   .padding-none:nth-child(5) {
     border-bottom: 1px solid #ddd;
   }
+  #demo
+  {
+    padding-top: 8px;
+    font-size: 32px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  #main-slide .carousel-item .carousel-caption .heading {
-    letter-spacing: 0;
+  /* .timer{
+    position: absolute;
+    top:75%;
+    left:25%;
+
+  } */
+  .box
+{
+  width: 200px;
+  height : 35px;
+  outline-width:medium;
+  margin-bottom: 1.1rem;
+}
+.box2
+{
+  width: 200px;
+    height: 35px;
+    position: relative;
+    top: 9px;
+    left: 9px;
+    outline-width:medium;
+}
+#demo
+{
+  font-size: 20px;
+  text-align: center;
+}
+#main-slide .carousel-control i {
+  line-height: 21px;
+  font-size: 14px;
+  width: 25px;
+  height: 25px;
+}
+#main-slide .carousel-outer .carousel-caption{
+  padding-top: 0;
+}
+  #main-slide  .carousel-outer .carousel-caption .heading {
+    /* letter-spacing: 0; */
+    font-size: 1rem;
   }
-  #main-slide .carousel-item .carousel-caption p {
-    font-size: 14px;
+  #main-slide  .carousel-outer .carousel-caption p {
+    font-size: 0.5rem;
   }
-  #main-slide .carousel-caption .btn {
+  #main-slide .carousel-outer .carousel-caption .btn {
     margin: 0;
   }
   #main-slide .carousel-indicators {
