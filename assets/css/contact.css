@@ -1,0 +1,20 @@
+
+body{
+    background-image : url("/assets/img/slider/s3.JPG");
+    
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   /* opacity: 0.8; */
+  }
+  #contact-us{
+      background-color: rgba(0, 0, 0, 0.5);
+      margin-bottom: 0!important;
+      padding-bottom: 6rem;
+      color: white;
+      /* font-size: 1.5rem; */
+  }
+  .footer-area{
+      background-color:rgba(0, 0, 0, 0.911)!important;
+  }
