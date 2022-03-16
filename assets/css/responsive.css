@@ -322,6 +322,9 @@
     left:25%;
 
   } */
+  p{
+    text-align:center;
+  }
   .box
 {
   width: 200px;
