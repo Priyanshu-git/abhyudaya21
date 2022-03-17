@@ -2335,10 +2335,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 padding: 53px 54px 43px 53px;
 cursor: pointer;
 }
-.bg-gray{
-  background: rgb(20, 19, 19);
-  
-}
+
 .bg-gray .card-title{
   color: white;
 }
