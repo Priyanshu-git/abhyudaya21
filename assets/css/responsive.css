@@ -188,6 +188,9 @@
     left:25%;
 
   } */
+  #mmmlogo{
+    display: none;
+  }
   .box
 {
   width: 300px;
